@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-weight: 200;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {       
+    margin: 0;
+    font-size: 18px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffd31d;
+}
+
+header {
+ margin: 3.5em 0;
+ text-align: center;
+}
+
+h1, h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rock, #paper, #scissors {
+    margin: 0 2em; 
+}
+
+button {
+    background-color: transparent;
+    padding: 1em;
+    border: none;
+    outline: none;
+    transition: 0.1s ease-out;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button > img {
+    max-height: 200px;
+    width: auto;
+}
+
+#rock > img {
+    transform: scale(1.1);
+}
+
+.section__options , .section_playerscore , .section_compscore , .section__results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.3em;
+    padding:  2em;
+    min-width: 300px;
+}
+
+.section__score {
+    display: flex;
+}
+
+p, .section__buttons {
+    margin-top: 1em;
+}
+
+
+@media screen and (max-width: 840px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    button > img {
+        max-height: 75px;
+    }
+
+    .section__options , .section_playerscore , .section_compscore , .section__results {
+        padding:  1em;
+        min-width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 479px){
+    button > img {
+        max-height: 50px;
+    }
+
+    h1, h2 {
+        font-size: 16px;
+    }
+    
+    .section__options , .section_playerscore , .section_compscore , .section__results {
+        padding:  0.5em;
+        min-width: 125px;
+    }
+
+    #rock, #paper, #scissors {
+        margin: 0 0.5em; 
+    }
+}

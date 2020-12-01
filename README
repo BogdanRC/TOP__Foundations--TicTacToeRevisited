@@ -1,0 +1,40 @@
+TITLE: 
+
+ Tic Tac Toe Revisited
+
+VERSION NUMBER: 
+
+ 1.00
+
+DESCRIPTION: 
+
+ Responsive Tic Tac Toe Game using HTMlm CSS and JS
+
+PROJECT STATUS: 
+
+complete 
+
+TO DO: 
+
+ -
+
+REQUIREMENTS: 
+
+ -
+
+USAGE GUIDE: 
+
+ Click or press on what you want to play, the computer automatically makes its choice and the result is shown in the result section. The first one to win 5 rounds wins the game
+
+TECHNOLOGIES USED: 
+
+ HTML, CSS, JS
+
+WHAT I'VE LEARNED: 
+
+ - to use thee apropriate HTML5 elements in order to improve accessibility
+ - to better implement responsiveness
+ - to use click event listeners
+ - modify the textcontent of nodes based on certain conditions
+
+MOTIVATION: 
